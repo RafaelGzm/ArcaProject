@@ -22,6 +22,7 @@ body {
 header ul{
     margin: 0;
     padding: 0; 
+    
 
 }
 
@@ -44,6 +45,7 @@ header li{
     float: left;
     display: inline;    
     padding: 0 20px 0 20px;
+    
 }
 
 header #branding{
@@ -83,16 +85,54 @@ header nav{
 }
 
 /* Footer social */
-.social-icon {
-    color: black;
-    transition: color 0.2s;  
-    text-decoration: none;
+footer {
+    position: absolute;
     background: skyblue;
-    float: right;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+
+}
+
+ .footer.content {
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     text-align: center;
+     text-decoration: none;
+     
+ }
+
+ .socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
     justify-content: center;
-    
-  }
- 
-  .social-icon:hover {
-      color: blanchedalmond;
-  }
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 50px;
+}
+.socials a{
+    text-decoration: none;
+    color: gray;
+}
+.socials a i{
+    font-size: 2.0rem;
+    transition: color .4s;
+
+}
+
+ .footer-bottom{
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-decoration: none;
+}
