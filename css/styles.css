@@ -61,6 +61,11 @@ header nav{
     float: right;
 }
 
+video {
+   
+   
+}
+
 /*Showcase*/
 #showcase{
     min-height: 400px;
@@ -69,14 +74,21 @@ header nav{
 }
 
 #showcase h1{
-    margin-top: 100px;
-    font-size: 30px;
-    display: flex;
-    width: 90%; 
-    min-width: 80vh;
-
+ color: aliceblue;
+ font-weight: 400;
+ letter-spacing: 2px;
+ margin-top: 7px;   
+ margin-bottom:  -20px;
+ line-height:  1.4;
 }
 
+p {
+    font-size: 16px;
+    color: #103a6c;
+    margin-top: 45px;
+    box-sizing: border-box;
+    display: block;
+}
 
 #showcase h2{
     font-size: 20px;
